@@ -1,0 +1,329 @@
+* {
+  margin: 0px;
+  font-family:
+    Segoe UI Historic,
+    Segoe UI,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+}
+
+#container-m {
+  /* height: 100vh; */
+  /* background-color: rgb(196, 12, 12); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+#signup-form {
+  padding: 8px;
+  height: auto;
+  width: 550px;
+  /* border: 2px solid black; */
+}
+
+#icon {
+  height: 30px;
+  width: 30px;
+  margin-bottom: -16px;
+  margin-left: -7px;
+  /* border: ; */
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px;
+}
+#icon:hover{
+  background-color:#f2f4f6 ;
+}
+
+#logo>img {
+  width: 70px;
+  margin-bottom: -18px;
+}
+
+#heading {
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-left: 3px;
+  transform: scaleX(1);
+  font-weight: 300px;
+  margin-bottom: 4px;
+}
+
+#para {
+  margin-left: 5px;
+}
+
+#name>h3 {
+  margin: 10px 0 8px 4px;
+  letter-spacing: 0.7px;
+  font-weight: 700;
+}
+
+#input-name {
+  width: 550px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+
+}
+
+#input-name>input {
+  width: 50%;
+  height: 58px;
+  border-radius: 15px;
+  border: 1px solid #d0d3d6;
+  padding-left: 14px;
+  margin-bottom: 21px;
+
+}
+
+#input-name>input::placeholder {
+  color: #666a84;
+  font-weight: 600;
+  font-size: 16px;
+  transform: scaleX(1);
+}
+
+#q-mark {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid black;
+  border-radius: 50%;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+#q-mark:hover {
+  background-color: rgb(241, 240, 240);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 1.5px;
+}
+
+#input-birth {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: 550px;
+  margin-top: 12px;
+
+}
+
+#input-birth {
+  display: flex;
+  gap: 16px;
+
+}
+
+#input-birth select {
+  flex: 1;
+  padding: 21px 35px 21px 12px;
+  border-radius: 15px;
+  border: 1px solid #d0d3d6;
+  color: #666a84;
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+select option {
+  color: black;
+  font-weight: 800;
+}
+
+#gender {
+  margin-top: 23px;
+  margin-bottom: 12px;
+}
+
+#input-gender select {
+  padding: 21px 35px 21px 12px;
+  border-radius: 15px;
+  border: 1px solid #d0d3d6;
+  color: #666a84;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+}
+
+#email-mobile {
+  margin: 23px 0px 12px 0px;
+}
+
+#input-email {
+  width: 550px;
+}
+
+#input-email>input {
+  border-radius: 15px;
+  border: 1px solid #d0d3d6;
+  padding-left: 14px;
+  width: 97%;
+  height: 58px;
+}
+
+#input-email>input::placeholder {
+  color: #666a84;
+  font-weight: 600;
+  font-size: 16px;
+  transform: scaleX(1);
+}
+
+#text {
+  margin-top: 10px;
+
+}
+
+#text p {
+  font-weight: 500;
+}
+
+#text a {
+  text-decoration: none;
+  color: #0864e0;
+  font-weight: 600;
+}
+
+#text a:hover {
+  text-decoration: underline;
+}
+
+#password {
+  margin: 15px 0px 12px 0px;
+}
+
+#input-password {
+  width: 550px;
+}
+
+#input-password>input {
+  border-radius: 15px;
+  border: 1px solid #d0d3d6;
+  padding-left: 14px;
+  width: 97%;
+  height: 58px;
+}
+
+#input-password>input::placeholder {
+  color: #666a84;
+  font-weight: 600;
+  font-size: 16px;
+  transform: scaleX(1);
+  letter-spacing: 0.7px;
+}
+
+#para-1 {
+  margin-top: 27px;
+}
+
+#para-2 {
+  margin: 10px 0px 10px 0px;
+}
+
+#para-3 {
+  margin-bottom: 10px;
+}
+
+#End p {
+  font-weight: 500;
+
+}
+
+#End p a {
+  text-decoration: none;
+  color: #0864e0;
+  font-weight: 600;
+}
+
+#End p a:hover {
+  text-decoration: underline;
+}
+
+#End p span {
+  font-weight: 900;
+}
+
+#sub-button a button {
+  width: 100%;
+  height: 45px;
+  background-color: #0064e0;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+#sub-button a button:hover {
+  background-color: #0755d1;
+}
+
+#already-acc a button {
+  width: 100%;
+  height: 45px;
+  border-radius: 30px;
+  background-color: #f2f4f6;
+  border: none;
+  color: #1c1e21;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#already-acc a button:hover {
+  background-color: #e8e7e7;
+}
+
+#language>#oper-text {
+  word-spacing: 20px;
+  color: #666a76;
+  line-height: 7px;
+}
+
+#language>#center-text {
+  color: #666a76;
+  line-height: 30px;
+  word-spacing: 3px;
+}
+
+#language {
+
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 0px 10px 98px;
+}
+
+#language #oper-text #more {
+  color: #666a76;
+  line-height: 7px;
+  word-spacing: 2px;
+}
+
+#language>#lower-text {
+  color: #666a76;
+  line-height: 35px;
+  word-spacing: 2px;
+}
+input:hover{
+  border-color: lightgray;
+    box-shadow: 0 0 0 1px;
+    cursor: pointer;
+}
+select:hover{
+  border-color: lightgray;
+    box-shadow: 0 0 0 1px;
+    cursor: pointer;
+}
